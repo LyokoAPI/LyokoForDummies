@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LyokoForDummies_Extending", "LyokoForDummies_Extending\LyokoForDummies_Extending.csproj", "{1407BB0D-FF15-400E-BB81-1069219EF532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{445A868D-5B73-4998-B727-9281C156EF08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1407BB0D-FF15-400E-BB81-1069219EF532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1407BB0D-FF15-400E-BB81-1069219EF532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1407BB0D-FF15-400E-BB81-1069219EF532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1407BB0D-FF15-400E-BB81-1069219EF532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445A868D-5B73-4998-B727-9281C156EF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445A868D-5B73-4998-B727-9281C156EF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445A868D-5B73-4998-B727-9281C156EF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445A868D-5B73-4998-B727-9281C156EF08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
