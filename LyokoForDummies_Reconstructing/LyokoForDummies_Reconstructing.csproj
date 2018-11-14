@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{445A868D-5B73-4998-B727-9281C156EF08}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{F2D070E1-5177-47BE-890B-6241037FAF3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApp</RootNamespace>
-    <AssemblyName>ConsoleApp</AssemblyName>
+    <RootNamespace>LyokoForDummies_Reconstructing</RootNamespace>
+    <AssemblyName>LyokoForDummies_Reconstructing</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -35,27 +35,15 @@
     <Reference Include="LyokoAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\IFSCLAPI\LyokoAPI\bin\Debug\LyokoAPI.dll</HintPath>
     </Reference>
-    <Reference Include="LyokoPluginLoader, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\LyokoPluginLoader\LyokoPluginLoader\bin\Debug\LyokoPluginLoader.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ReconstructingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LyokoForDummies_Extending\LyokoForDummies_Extending.csproj">
-      <Project>{1407bb0d-ff15-400e-bb81-1069219ef532}</Project>
-      <Name>LyokoForDummies_Extending</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LyokoForDummies_Reconstructing\LyokoForDummies_Reconstructing.csproj">
-      <Project>{f2d070e1-5177-47be-890b-6241037faf3c}</Project>
-      <Name>LyokoForDummies_Reconstructing</Name>
-    </ProjectReference>
+    <Compile Include="Tower.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
